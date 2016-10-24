@@ -1,6 +1,12 @@
 # Vocab words need to know
-# class
-# instance
+# Array - Ordered, 0 based integer-indexed colloections of any object.
+#       - film = ['title', 'title1', 'title2']
+# Hash - Collection of unique keys and their values.
+#      - film-title = { 'title' => 'abc',...so on}
+# Method - Giving algorithm, and less lines to maintain
+#        - First to think is Inputs and outputs
+# Class - Contain the functions and
+# instance -
 # instance variable
 # instance method
 # reader / getter
@@ -22,9 +28,9 @@ class Person # => must start with Uppercase
   attr_accessor :first_name, :last_name # => Reader & Writer
 
   def initialize(first_name, last_name, year_of_birth) # => states
-    @first_name    = first_name # => instences variable
-    @last_name     = last_name # => instences variable
-    @year_of_birth = year_of_birth # => instences variable
+    @first_name    = first_name # => instence variable
+    @last_name     = last_name # => instence variable
+    @year_of_birth = year_of_birth # => instence variable
     @job_title     = 'Baby'
   end
 
